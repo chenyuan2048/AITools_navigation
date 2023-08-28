@@ -1,7 +1,7 @@
 export default [
     {
-        id: 'tuijian',
-        title: '推荐',
+        id: 'remen',
+        title: '热门工具',
         children: [
             {
                 iconPath: require('@/assets/icon/github.png'),
@@ -46,12 +46,6 @@ export default [
                 introduction: '有问题 就会有答案'
             },
             {
-                iconPath: require('@/assets/icon/w3cschool.png'),
-                name: 'w3cschool',
-                url: 'https://www.w3cschool.cn',
-                introduction: '编程狮 随时随地学编程'
-            },
-            {
                 iconPath: require('@/assets/icon/sf.png'),
                 name: '思否',
                 url: 'https://segmentfault.com',
@@ -62,12 +56,6 @@ export default [
                 name: '简书',
                 url: 'https://www.jianshu.com',
                 introduction: '创作你的创作'
-            },
-            {
-                iconPath: require('@/assets/icon/mdn.png'),
-                name: 'MDN',
-                url: 'https://developer.mozilla.org/zh-CN/',
-                introduction: 'MDN Web Docs'
             },
             {
                 iconPath: require('@/assets/icon/bky.png'),
@@ -88,34 +76,16 @@ export default [
                 introduction: '国内知名的视频弹幕网站'
             },
             {
-                iconPath: require('@/assets/icon/wyzxw.png'),
-                name: '我要自学网',
-                url: 'https://www.51zxw.net',
-                introduction: '视频教程 免费教程'
-            },
-            {
                 iconPath: require('@/assets/icon/manong.png'),
                 name: '码农教程',
                 url: 'http://www.manongjc.com',
                 introduction: 'IT编程入门网 - 码农网'
             },
-            {
-                iconPath: require('@/assets/icon/yjzw.png'),
-                name: '印记中文',
-                url: 'https://docschina.org/',
-                introduction: '为前端开发人员提供优质文档！'
-            },
-            {
-                iconPath: require('@/assets/icon/OSCHINA.png'),
-                name: 'OSCHINA',
-                url: 'https://www.oschina.net/',
-                introduction: '中文开源技术交流社区'
-            },
         ]
     },
     {
-        id: 'javascript',
-        title: 'JavasSript',
+        id: '推荐工具',
+        title: '推荐工具',
         children: [
             {
                 iconPath: require('@/assets/icon/xdjs.png'),
@@ -132,8 +102,8 @@ export default [
         ]
     },
     {
-        id: 'css',
-        title: 'CSS',
+        id: 'write',
+        title: 'AI写作',
         children: [
             {
                 iconPath: require('@/assets/icon/mdn.png'),
@@ -162,8 +132,8 @@ export default [
         ]
     },
     {
-        id: 'jquery',
-        title: 'JQuery',
+        id: 'images',
+        title: 'AI图像',
         children: [
             {
                 iconPath: require('@/assets/icon/jQuery.png'),
@@ -192,8 +162,8 @@ export default [
         ]
     },
     {
-        id: 'vue',
-        title: 'Vue',
+        id: 'video',
+        title: 'AI视频',
         children: [
             {
                 iconPath: require('@/assets/icon/Vue.png'),
@@ -240,8 +210,8 @@ export default [
         ]
     },
     {
-        id: 'react',
-        title: 'React',
+        id: 'design',
+        title: 'AI设计',
         children: [
             {
                 iconPath: require('@/assets/icon/react.png'),
@@ -270,32 +240,8 @@ export default [
         ]
     },
     {
-        id: 'angular',
-        title: 'Angular',
-        children: [
-            {
-                iconPath: require('@/assets/icon/Angular.png'),
-                name: 'Angular',
-                url: 'https://angular.cn/',
-                introduction: 'Angular'
-            },
-        ]
-    },
-    {
-        id: 'svelte',
-        title: 'Svelte',
-        children: [
-            {
-                iconPath: require('@/assets/icon/Svelte.png'),
-                name: 'Svelte',
-                url: 'https://www.sveltejs.cn/',
-                introduction: 'Svelte中文文档'
-            },
-        ]
-    },
-    {
-        id: 'node',
-        title: 'Node.js',
+        id: 'code',
+        title: 'AI编程工具',
         children: [
             {
                 iconPath: require('@/assets/icon/node.png'),
@@ -336,8 +282,8 @@ export default [
         ]
     },
     {
-        id: 'typescript',
-        title: 'TypeScript',
+        id: 'audio',
+        title: 'AI音频',
         children: [
             {
                 iconPath: require('@/assets/icon/ts.png'),
@@ -354,8 +300,8 @@ export default [
         ]
     },
     {
-        id: 'bianjiqi',
-        title: '编辑器',
+        id: 'chatbot',
+        title: 'AI对话机器人',
         children: [
             {
                 iconPath: require('@/assets/icon/vscode.png'),
@@ -384,8 +330,8 @@ export default [
         ]
     },
     {
-        id: 'jsku',
-        title: 'JS库',
+        id: 'checking',
+        title: 'AI内容检测',
         children: [
             {
                 iconPath: require('@/assets/icon/Lodash.png'),
@@ -444,8 +390,8 @@ export default [
         ]
     },
     {
-        id: 'git',
-        title: 'Git',
+        id: 'promote',
+        title: 'AI提示指令',
         children: [
             {
                 iconPath: require('@/assets/icon/kyzb.png'),
@@ -462,8 +408,8 @@ export default [
         ]
     },
     {
-        id: 'zujianku',
-        title: 'UI库',
+        id: 'finice',
+        title: 'AI财务管理',
         children: [
             {
                 iconPath: require('@/assets/icon/element.png'),
@@ -552,8 +498,8 @@ export default [
         ]
     },
     {
-        id: 'zititubiao',
-        title: '字体图标',
+        id: 'developer',
+        title: 'AI开发者工具',
         children: [
             {
                 iconPath: require('@/assets/icon/iconfont.png'),
@@ -594,8 +540,8 @@ export default [
         ]
     },
     {
-        id: 'kuapingtai',
-        title: '跨平台',
+        id: 'learning',
+        title: 'AI学习',
         children: [
             {
                 iconPath: require('@/assets/icon/uni.png'),
@@ -618,8 +564,8 @@ export default [
         ]
     },
     {
-        id: 'Electron',
-        title: 'Electron',
+        id: 'businessApp',
+        title: 'AI商业应用',
         children: [
             {
                 iconPath: require('@/assets/icon/Electron.png'),
@@ -636,8 +582,8 @@ export default [
         ]
     },
     {
-        id: 'weiqiandaun',
-        title: '微前端',
+        id: 'Medical',
+        title: 'AI医疗',
         children: [
             {
                 iconPath: require('@/assets/icon/qiankun.png'),
@@ -660,8 +606,8 @@ export default [
         ]
     },
     {
-        id: 'goujian',
-        title: '构建',
+        id: 'VR&AR',
+        title: 'AI VR&AR',
         children: [
             {
                 iconPath: require('@/assets/icon/webpack.png'),
@@ -744,8 +690,8 @@ export default [
         ]
     },
     {
-        id: 'gongju',
-        title: '工具',
+        id: 'games',
+        title: 'AI游戏',
         children: [
             {
                 iconPath: require('@/assets/icon/caniuse.png'),
@@ -834,8 +780,8 @@ export default [
         ]
     },
     {
-        id: 'suanfa',
-        title: '算法',
+        id: 'Operations',
+        title: 'AI运营平台',
         children: [
             {
                 iconPath: require('@/assets/icon/likou.png'),
@@ -859,7 +805,7 @@ export default [
     },
     {
         id: 'tuozhan',
-        title: '拓展',
+        title: 'AI开发平台',
         children: [
             {
                 iconPath: require('@/assets/icon/baiduamap.png'),
@@ -882,8 +828,8 @@ export default [
         ]
     },
     {
-        id: 'sucai',
-        title: '素材',
+        id: 'life',
+        title: 'AI生活',
         children: [
             {
                 iconPath: require('@/assets/icon/Pexels.png'),
@@ -931,7 +877,7 @@ export default [
     },
     {
         id: 'shequ',
-        title: '社区',
+        title: 'AI社区',
         children: [
             {
                 iconPath: require('@/assets/icon/Vue.png'),
@@ -949,7 +895,7 @@ export default [
     },
     {
         id: 'zonghe',
-        title: '综合',
+        title: 'AI综合',
         children: [
             {
                 iconPath: require('@/assets/icon/developers.png'),
@@ -969,30 +915,6 @@ export default [
                 url: 'https://fe.ecool.fun/',
                 introduction: '专业的前端面试题库'
             },
-        ]
-    },
-    {
-        id: 'yingyu',
-        title: '英语',
-        children: [
-            {
-                iconPath: require('@/assets/icon/duolingguo.png'),
-                name: '多邻国',
-                url: 'https://www.duolingo.cn/',
-                introduction: '学外语 学习就像玩游戏！'
-            },
-            {
-                iconPath: require('@/assets/icon/keke.png'),
-                name: '可可英语',
-                url: 'http://www.kekenet.com/',
-                introduction: '免费英语学习网站'
-            },
-            {
-                iconPath: require('@/assets/icon/tjxz.png'),
-                name: '田间小站',
-                url: 'https://www.tjxz.cc/',
-                introduction: '高级英语学习'
-            }
         ]
     },
     {

@@ -7,10 +7,10 @@
       </div>
       <div class="nav">
         <router-link to="/">首页</router-link>
-        <router-link to="/timeAxis">时间轴</router-link>
-        <router-link to="/collection">收藏</router-link>
-        <router-link to="/message">留言</router-link>
-        <router-link to="/about">关于</router-link>
+        <router-link to="/timeAxis">工具上心</router-link>
+        <router-link to="/collection">收藏夹</router-link>
+        <router-link to="/message">AI资讯</router-link>
+        <router-link to="/about">关于我们</router-link>
       </div>
       <div class="other-con">
         <el-color-picker v-model="themeColor" @change='changeEvent' size='small' />

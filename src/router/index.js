@@ -43,6 +43,6 @@ const router = createRouter({
   routes
 })
 
-router.afterEach(to => document.title = `天马导航 - ${to.meta.title} | 专注于前端的导航网站`)
+router.afterEach(to => document.title = `玩转ChatGPT - ${to.meta.title} | 常用AI工具的导航网站`)
 
 export default router

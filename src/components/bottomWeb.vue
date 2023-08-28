@@ -6,10 +6,14 @@
         <li class="link-item">
           <a href="https://vue.miaya.art/zh-cn" target="blank" class="nav-link">Fext UI</a>
         </li>
+        <li class="link-item">
+          <a href="https://pgs98.com/#/" target="blank" class="nav-link">天马导航</a>
+        </li>
+        
       </ul>
       <div class="mes">
-        <span>© 2021-11-19 </span>
-        <a href="https://beian.miit.gov.cn/#/Integrated/index" class="bei-link" target="blank">闽ICP备2021017230号</a>
+        <span>© 2023-06-30</span>
+        <a href="https://beian.miit.gov.cn/#/Integrated/index" class="bei-link" target="blank">粤ICP备2023089814号-1</a>
       </div>
     </div>
   </div>
